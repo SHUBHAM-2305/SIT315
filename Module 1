@@ -1,0 +1,25 @@
+Simple Sense-Think-Act Board
+
+Overview
+This project is a Sense-Think-Act system implemented using an Arduino Uno, an HC-SR505 motion sensor, and both the built-in LED and an external LED as actuators. The system detects motion, processes the input, and responds by turning on/off the LEDs accordingly. The serial monitor is used to display the system status.
+
+Components Used
+Arduino Uno
+HC-SR505 Motion Sensor
+Built-in LED (Pin 13)
+External LED (Pin 7) 
+Connecting Wires
+
+Circuit Connections
+
+HC-SR505 Motion Sensor
+GND → Arduino GND
+VCC (+5V) → Arduino 5V
+OUT → Arduino Digital Pin 2
+
+Built-in LED
+Automatically connected to Pin 13
+
+External LED
+Anode (+) Leg → Digital Pin 7
+Cathode (-) Leg → GND 
